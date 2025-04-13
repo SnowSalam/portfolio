@@ -1,0 +1,14 @@
+.current-page:hover {
+    text-decoration: none;
+}
+
+main {
+    padding: 100px 400px 100px 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.post-theme {
+    color: #8695A4;
+}
