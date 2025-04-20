@@ -12,3 +12,9 @@ main {
 .post-theme {
     color: #8695A4;
 }
+
+@media (max-width: 768px) {
+    main {
+        padding: 50px 30px;
+    }
+}
