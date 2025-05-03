@@ -231,7 +231,7 @@ li.header-links {
     margin-right: 200px;
     display: flex;
     flex-wrap: nowrap;
-    gap: 10vw;
+    gap: 10%;
     justify-content: center;
 }
 
@@ -262,6 +262,14 @@ li.header-links {
     .recent-post-block {
         width: 90%;
     }
+
+    .recent-post-info {
+        text-align: center;
+    }
+
+    .post-title {
+        text-align: center;
+    }
 }
 
 .post-title {
@@ -278,7 +286,7 @@ li.header-links {
 }
 
 .pipe {
-    margin: 0 30px;
+    margin: 0 20px;
 }
 
 .post-text {
@@ -335,6 +343,18 @@ li.header-links {
 }
 
 @media (max-width: 768px) {
+    .post-title {
+        text-align: center;
+    }
+
+    .post-text {
+        text-indent: 1em;
+    }
+
+    .pipe {
+        margin: 0 5px;
+    }
+
     .featured-works {
         padding: 50px 20px 60px;
     }
@@ -352,6 +372,26 @@ li.header-links {
         align-self: center;
         margin-bottom: 30px;
         width: 85vw;
+    }
+
+    .work-info {
+        text-align: center;
+    }
+
+    .work-year {
+        margin-right: 5px;
+    }
+
+    .work-text {
+        margin-left: 5%;
+    }
+
+    .work-text h2 {
+        text-align: center;
+    }
+
+    .work-text p {
+        text-indent: 1em;
     }
 }
 
