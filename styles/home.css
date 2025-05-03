@@ -192,7 +192,7 @@ li.header-links {
     }
 
     .hello {
-        margin-top: 2rem;
+        margin: 2rem 5% 50px;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -327,12 +327,14 @@ li.header-links {
     border-radius: 15px;
     text-align: center;
     margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 .work-theme {
+    display: inline-block;
     color: #8695A4;
     font-size: 20px;
+    text-wrap: nowrap;
+    margin-bottom: 30px;
 }
 
 .custom-line {
@@ -383,7 +385,7 @@ li.header-links {
     }
 
     .work-text {
-        margin-left: 5%;
+        margin-left: 0;
     }
 
     .work-text h2 {
